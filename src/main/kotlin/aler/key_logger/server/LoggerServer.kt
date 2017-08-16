@@ -21,7 +21,7 @@
 
 package aler.key_logger.server
 
-import aler.key_logger.hook.LoggerEventsProvider
+import aler.key_logger.hooks.LoggerEventsProvider
 
 import org.java_websocket.WebSocket
 import org.java_websocket.handshake.ClientHandshake

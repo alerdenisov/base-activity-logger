@@ -1,7 +1,8 @@
-package aler.key_logger.hook
+package aler.key_logger.hooks.application
 
 import aler.key_logger.events.LoggerEvent
 import aler.key_logger.events.application.ApplicationChangeEvent
+import aler.key_logger.hooks.LoggerEventsProvider
 import com.sun.jna.Native
 import com.sun.jna.Platform
 import com.sun.jna.Pointer

@@ -18,13 +18,14 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-package aler.key_logger.hook
+package aler.key_logger.hooks.input
 
 import aler.key_logger.events.keyboard.*
 import aler.key_logger.events.LoggerEvent
 import aler.key_logger.events.mouse.MouseClickEvent
 import aler.key_logger.events.mouse.MouseMoveEvent
 import aler.key_logger.events.mouse.MouseScrollEvent
+import aler.key_logger.hooks.LoggerEventsProvider
 import org.jnativehook.GlobalScreen
 
 import org.jnativehook.keyboard.NativeKeyEvent

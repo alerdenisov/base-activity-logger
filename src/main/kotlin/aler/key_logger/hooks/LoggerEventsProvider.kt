@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-package aler.key_logger.hook
+package aler.key_logger.hooks
 
 import aler.key_logger.events.LoggerEvent
 import java.util.*

